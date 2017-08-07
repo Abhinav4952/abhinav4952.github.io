@@ -1,96 +1,189 @@
 <!doctype html>
 <head>
-<title>Form 1</title>
+<title>Student Registration</title>
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-hr { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 10px;
+<style>
+@import "font-awesome.min.css";
+@import "font-awesome-ie7.min.css";
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-    margin: 4px 2px;
-    cursor: pointer;
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
 }
 </style>
 </head>
 <body>
-
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Student Projects</a></li>
+        <li><a href="#">Contact US</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>SignUp</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 <div class="container">
-
-  <h2>H/w/w</h2>
-		
-		
-
-	<div class="form-group">
-      <label for="email">Led information</label>
-	  <input type="email" class="form-control" id="led" placeholder="LED NO." name="email">
+    <h1 class="well">Registration Form</h1>
+	<div class="col-lg-12 well">
+	<div class="row">
+				<form>
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-6 form-group">
+								<label>First Name</label>
+								<input type="text" placeholder="Enter First Name Here.." class="form-control">
+							</div>
+							<div class="col-sm-6 form-group">
+								<label>Last Name</label>
+								<input type="text" placeholder="Enter Last Name Here.." class="form-control">
+							</div>
+						</div>					
+						<div class="form-group">
+							<label>Address</label>
+							<textarea placeholder="Enter Address Here.." rows="3" class="form-control"></textarea>
+						</div>	
+						<div class="row">
+							<div class="col-sm-4 form-group">
+								<label>City</label>
+								<input type="text" placeholder="Enter City Name Here.." class="form-control">
+							</div>	
+							<div class="col-sm-4 form-group">
+								<label>State</label>
+								<input type="text" placeholder="Enter State Name Here.." class="form-control">
+							</div>	
+							<div class="col-sm-4 form-group">
+								<label>Zip</label>
+								<input type="text" placeholder="Enter Zip Code Here.." class="form-control">
+							</div>		
+						</div>
+						<div class="row">
+							<div class="col-sm-6 form-group">
+								<label>Title</label>
+								<input type="text" placeholder="Enter Designation Here.." class="form-control">
+							</div>		
+							<div class="col-sm-6 form-group">
+								<label>Company</label>
+								<input type="text" placeholder="Enter Company Name Here.." class="form-control">
+							</div>	
+						</div>						
+					<div class="form-group">
+						<label>Phone Number</label>
+						<input type="text" placeholder="Enter Phone Number Here.." class="form-control">
+					</div>		
+					<div class="form-group">
+						<label>Email Address</label>
+						<input type="text" placeholder="Enter Email Address Here.." class="form-control">
+					</div>	
+					<div class="form-group">
+						<label>Website</label>
+						<input type="text" placeholder="Enter Website Name Here.." class="form-control">
+					</div>
+					<button type="button" class="btn btn-lg btn-info">Submit</button>					
+					</div>
+				</form> 
+				</div>
 	</div>
-	<div class="checkbox">
-    <label><input type="checkbox">ck1</label>
 	</div>
-	<div class="checkbox">
-    <label><input type="checkbox">ck2</label>
-	</div>
-	<div class="checkbox">
-    <label><input type="checkbox">ck3</label>
-	</div>
-	<button class="button" >BTN1</button>
-
-
-	<button type="submit" class="btn btn-default" color="#008CBA">Btn2</button>
-	<table class="table">
-  <tr>
-    <th>Row1</th>
-    <th>Row2</th> 
-    <th>Row3</th>
-  </tr>
-  <tr>
-    <td>Row4</td>
-    <td>Row5</td> 
-    <td>Row6</td>
-  </tr>
-  <tr>
-    <td>Row7</td>
-    <td>Row8</td> 
-    <td>Row9</td>
-  </tr>
-</table><hr>
-<h2>S/w</h2>
-<div class="form-group">
-      <label for="email">Software Config</label>
-	  <input type="email" class="form-control" id="soft" placeholder="softNO." name="email">
-	</div>
-	<div class="form-group">
-      <label for="email">Software Btn1</label>
-	  <input type="email" class="form-control" id="softb" placeholder="softBNO." name="email">
-	</div>
-	<button type="submit" class="btn btn-default">Software divsion Btn1</button><br/>
-	<div class="form-group">
-      <label for="email">Software Btn2</label>
-	  <input type="email" class="form-control" id="softb2" placeholder="softBNO2." name="email">
-	</div>
-	<button type="submit" class="btn btn-default">Software divsion Btn2</button><br/>
-
-
-  
-</div>
-
 </body>
 </html>
+
+
+
+
+
+
+
+
