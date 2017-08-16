@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SCCE</title>
+
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+
+<!--elements styles-->
+	<link href="css/elements.css" rel="stylesheet" type="text/css" />
+<!--elements styles-->    
+
+</head>
+
+<body>
+<!--header starts-->
+<div class="header">
+<p class="header-top"></p>
+  <div class=" cont-sec head-sec">
+    	<div class="logo1">
+			<a href=""><img src="images/logo1.jpg" title="TAKSHASILA EDUCATIONAL SOCIETY" border="0"/></a>
+        </div>
+    <div class="logotitle" title="SREE CHAITANYA COLLEGE OF ENGINEERING">
+    					SREE CHAITANYA COLLEGE OF ENGINEERING<br />
+	  <span>(Approved by AICTE, New Delhi, Affiliated to JNTUH, Telangana)</span>
+    </div>
+    <div class="logo1 float-r">
+		<a href=""><img src="images/logo2.jpg" title="SREE CHAITANYA COLLEGE OF ENGINEERING" border="0"/></a>
+    </div>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="clear"></div>
+
+<div class="header-nav">
+	
+ 	<div class="cont-sec">
+        <ul id="MenuBar1" class="MenuBarHorizontal">
+            <li><a href="login.html"><img src="images/home.png" /></a></li>
+            
+            <li><a class="MenuBarItemSubmenu" href="society.html">Society</a></li>
+            <li><a href="affiliation.html" class="MenuBarItemSubmenu">Affiliation</a></li>
+            <li><a class="MenuBarItemSubmenu nav-active" href="institute-registration.html">Institute Registration</a></li>
+            <li><a class="MenuBarItemSubmenu" href="college-shift.html">College Shift</a></li>     
+            <li><a href="level-master.html" class="MenuBarItemSubmenu">Level Master</a></li>
+            <li><a class="MenuBarItemSubmenu" href="degree-level.html">Degree Level</a></li>
+            <li><a class="MenuBarItemSubmenu" href="department.html">Department</a></li>
+            <li><a href="emp-works-in.html" class="MenuBarItemSubmenu">Emp Works In</a></li>
+            
+            <div class="search"><a href="search.html"><img src="images/search.png" /></a></div>
+   	    </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+<div class="clear"></div>
+</div>
+<!--header ends-->
+
+<!--container starts-->
+<div class="container">
+	
+  <div class="cont-sec">
+  <div class="headding-1"><h1>College Management System </h1></div>
+    	
+        
+        <div class="row-992 margin-b-6">
+					<h1><img src="images/registration1.png" align="absmiddle" border="0"/>Institute Registration</h1>
+                <div class="column-440 margin-r-100 form-elements">
+              <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tbody>
+                   <tr>
+                    <td width="50%"><span>college Id:</span></td>
+                    <td colspan="2"><input type="text"  class="txt_box200"/></td>
+                </tr>
+                  <tr>
+                    <td><span>College Code:</span></td>
+                    <td colspan="2">
+                    <input type="text" class="txt_box200"/></td>
+                  </tr>
+                  <tr>
+                    <td><span>College Center Code:</span></td>
+                    <td colspan="2">
+                    <input type="password" class="txt_box200"/></td>
+                  </tr>
+                  <tr>
+                    <td>
+                    <span>College Name:</span></td>
+                    <td colspan="2">
+                     <input type="password" class="txt_box200"/>
+                    </td>
+                  </tr>
+                  
+                    <tr> 
+                    <td class="align_top"><span>Address:</span></td>
+                    <td colspan="2" class="align_top">
+                    <textarea rows="5" cols="10" class="text_area200">
+                        </textarea>
+                        </td>
+                  </tr>
+                  <tr>
+                    <td><span>Estimate Year:</span></td>
+                    <td colspan="2">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                     <td width="4%">&nbsp;</td>
+                    <td width="77%"><input type="text" class="txt_box150"/></td>
+                    <td width="17%"><img src="images/calender.png"/></td>
+                  </tr>
+                    </table>
+                    </td>
+                  </tr>
+                    <tr>
+                    <td><span>Society Name:</span></td>
+                    <td colspan="2"><input type="text" class="txt_box200"/></td>
+                  </tr>
+                  
+            </tbody></table>
+          </div>
+        	<div class="column-440 form-elements">
+              <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tbody>
+                  <tr>
+                    <td><span>Principal Name:</span></td>
+                    <td colspan="2">
+                    <input type="password" class="txt_box200"/></td>
+                  </tr>
+                    <tr>
+                    <td width="60%"><span>Secretary/Director:</span></td>
+                    <td width="40%" colspan="2"><input type="text" class="txt_box200"/></td>
+                  </tr>
+                  <tr>
+                    <td><span>Chairman:</span></td>
+                    <td colspan="2">
+                    <input type="password" class="txt_box200"/></td>
+                  </tr>
+                    <tr>
+                    <td><span>Logo Path:</span></td>
+                    <td colspan="2"><input type="text" class="txt_box200"/></td>
+                  </tr>
+                  <tr>
+                    <td><span>Lattitude Longditude:</span></td>
+                    <td colspan="2">
+                    <input type="password" class="txt_box200"/></td>
+                  </tr>
+                  <tr>
+                    <td><span>Contact:</span></td>
+                    <td colspan="2">
+                    <input type="password" class="txt_box200"/></td>
+                  </tr>
+                  <tr>
+                    <td><span>Email:</span></td>
+                    <td colspan="2">
+                    <input type="password" class="txt_box200"/></td>
+                  </tr><tr>
+                    <td><span>Fax:</span></td>
+                    <td colspan="2">
+                    <input type="password" class="txt_box200"/></td>
+                  </tr>
+                  <tr>
+                    <td><span>No Of Shifts:</span></td>
+                    <td colspan="2">
+                    <input type="password" class="txt_box200"/></td>
+                  </tr>
+                    <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3">
+                    <table width="340" border="0" cellspacing="0" cellpadding="0" class="float-r">
+                          <tr>
+                            <td width="147">
+                            <input type="button"  value="Submit"  class="btn-tk-blue" /></td>
+                            <td width="96">
+                            <input type="button"  value="Reset" class="btn-blue"/></td>
+                            <td width="97">
+                            <input type="button"  value="Back" class="btn-grey"/>
+                            </td>
+                          </tr>
+                        </table>
+                    </td>
+                  </tr>
+            </tbody></table>
+          </div>
+
+        </div>
+        
+        
+  </div>
+    <div class="clear"></div>
+</div>
+<!--container ends-->
+
+<!--footer starts-->
+<div class="footer">
+	<p>© Sree Chaitanya College of Engineering Karimnagar 2013<br />
+Site Developed by SCCE Faculty & Students, Best Viewed in 1024 x 768 Resolution. </p>
+</div>
+<!--footer ends-->
+<script type="text/javascript">
+<!--
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+//-->
+
+</body>
+</html>
